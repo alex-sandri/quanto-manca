@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: wheat;
+  background-color: darkslategray;
+  font-family: monospace;
+}
+
+.event {
+  border-left: 0.5rem solid black;
+  padding-left: 0.5rem;
+
+  >p:first-child {
+    margin-bottom: 0;
+
+    font-style: italic;
+  }
+
+  .days-until {
+    margin: 0.5rem 0;
+
+    font-size: xx-large;
+    font-weight: 900;
+  }
+}
