@@ -2,6 +2,7 @@ const events = {
   'licenza pasquale': new Date(2025, 3, 17),
   'tirocinio': new Date(2025, 7, 2),
   'licenza estiva': new Date(2025, 7, 18),
+  'consegna del grado': new Date(2025, 11, 18),
 };
 
 const differenceInDays = (date) => {
